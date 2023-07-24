@@ -97,6 +97,17 @@ describe('#Routes suite test', () => {
   })
 
   describe('#get', () => {
-    test.todo('given method GET it should list all files downloaded')
+    test.skip('given method GET it should list all files downloaded', async () => {
+      const filesStatusesMock = [
+        {
+          size: 14054,
+          birthtime: '2023-07-24T19:56:13.812Z',
+          owner: 'telos',
+          file: 'file.png'
+        }
+      ]
+
+
+    })
   })
 })

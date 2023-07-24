@@ -76,9 +76,9 @@ describe('#Routes suite test', () => {
       params.request.method = 'POST'
 
       jest.spyOn(routes, routes.post.name).mockResolvedValue()
-      
+
       await routes.handler(...params.values())
-      expect(params.response.end).toHaveBeenCalled()
+      expect(routes.post).toHaveBeenCalled()
     })
 
     test('given method GET it should choose get route', async () => {
@@ -88,8 +88,15 @@ describe('#Routes suite test', () => {
       }
 
       params.request.method = 'GET'
+
+      jest.spyOn(routes, routes.get.name).mockResolvedValue()
+
       await routes.handler(...params.values())
-      expect(params.response.end).toHaveBeenCalled()
+      expect(routes.get).toHaveBeenCalled()
     })
+  })
+
+  describe('#get', () => {
+    test.todo('given method GET it should list all files downloaded')
   })
 })

@@ -36,4 +36,4 @@ You can click on proceed in the browser and use the invalid certificate and the 
 
 - I ran `npm test` but nothing happens, what to do?
 
-Check your Node.js version. I used version 16.8. Go to [node.js website](nodejs.org) and download the latest version.
+Check your Node.js version. I used version 16.8. Go to [node.js website](https://nodejs.org) and download the latest version.

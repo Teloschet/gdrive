@@ -1,4 +1,3 @@
-# instalação no mac
 # https://github.com/FiloSottile/mkcert
 # brew install mkcert nss
 # mkcert -install

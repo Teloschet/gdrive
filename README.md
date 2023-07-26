@@ -32,7 +32,7 @@ Example: `"test": "set NODE_OPTIONS=--experimental-vm-modules && npx jest --runI
 
 This error happens because I generated a certificate linked to the user of my machine.
 
-You can click on proceed in the browser and use the invalid certificate and the project will continue working, but if you wnat to generate your own, I wrote the step by step in [./certificates](https://github.com/Teloschet/gdrive/certificates)
+You can click on proceed in the browser and use the invalid certificate and the project will continue working, but if you wnat to generate your own, I wrote the step by step in [./certificates](https://github.com/Teloschet/gdrive/tree/main/certificates)
 
 - I ran `npm test` but nothing happens, what to do?
 
